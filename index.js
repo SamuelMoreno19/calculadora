@@ -81,3 +81,11 @@ function factorial(num) {
 function exponente(base, exp) {
     return Math.pow(base, exp);
 }
+
+//Funcion para calcular la raiz
+function raizCuadrada(num) {
+    if (num < 0) {
+        return "No se puede calcular la raíz cuadrada de un número negativo";
+    }
+    return Math.sqrt(num);
+}
