@@ -77,3 +77,7 @@ function factorial(num) {
     return resultado;
 }
 
+//Funcion para calcular el exponente 
+function exponente(base, exp) {
+    return Math.pow(base, exp);
+}
