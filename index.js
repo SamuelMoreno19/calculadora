@@ -1,3 +1,6 @@
+// Importar prompt-sync
+const prompt = require("prompt-sync")();
+
 // Función principal del programa
 function calculadora() {
     var opcion = prompt(
@@ -10,7 +13,7 @@ function calculadora() {
         num2 = parseFloat(prompt("Ingrese el segundo número:"));
     }
 
-    alert(
+    console.log(
         "la operacion es " +
         opcion +
         " el primer valor es " +
@@ -68,8 +71,13 @@ function calculadora() {
             break;
     }
 
-    alert("El resultado es: " + resultado);
+    console.log("El resultado es: " + resultado);
 }
 
 // Llamar a la función principal
 calculadora();
+
+//Funcion para restar 2 numeros
+function restar(num1, num2) {
+    return num1 - num2;
+}
