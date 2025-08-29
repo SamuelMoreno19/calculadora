@@ -81,3 +81,8 @@ calculadora();
 function restar(num1, num2) {
     return num1 - num2;
 }
+
+//Funcion para multiplicar 2 numeros
+function multiplicar(num1, num2){
+    return num1 * num2;
+}
